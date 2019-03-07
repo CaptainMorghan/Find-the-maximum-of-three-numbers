@@ -1,0 +1,19 @@
+﻿<Window x:Class="IF_challange_one.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IF_challange_one"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label x:Name="lblOutput" Content="Number one"/>
+        <TextBox x:Name="txtNumber" />
+        <Label x:Name="lblOutputTwo" Content="Number two" />
+        <TextBox x:Name="txtNumberTwo" />
+        <Label x:Name="lblOutputThree" Content="Number three" />
+        <TextBox x:Name="txtNumberThree" />
+        <Button x:Name="btnFindMaxNumber" Click="btnFindMaxNumber_Click" Content="Click to see whats bigger because your to lazy to count" />
+        <Label x:Name="lblOutputMaximum" Content="" />
+    </StackPanel>
+</Window>
